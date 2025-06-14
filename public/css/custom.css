@@ -1,0 +1,328 @@
+body,
+html {
+    scroll-behavior: smooth;
+}
+.business-process-title {
+    background-color: #1c63b8;
+    background: linear-gradient(90deg, rgba(43, 50, 113, 1) 0%, rgba(11, 138, 203, 1) 100%);
+}
+.business-process-title .title {
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.main-breadcrumbs .wt-breadcrumb .b-links {
+    color: #80ddff !important;
+}
+.business-process-title .title * {
+    color: #fff !important;
+}
+.banner-title-name h1 {
+    font-weight: 800;
+    color: white !important;
+}
+.banner-title-name h1.small {
+    font-size: 2rem;
+}
+
+@media only screen and (max-width: 991px) {
+    .wt-bnr-inr {
+        height: 330px;
+        padding-top: 40px;
+    }
+}
+.business-process .item-number {
+    border: 8px solid #1c63b8;
+    background-color: white;
+    width: 75px;
+    height: 75px;
+    font-size: 3em;
+    border-radius: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Teko", sans-serif;
+    font-weight: 600;
+    line-height: 1em;
+}
+.business-process .item-number div {
+    padding-top: 5px;
+    color: #2f6db0;
+}
+.business-process .item-icon {
+    text-align: center;
+    width: 6em;
+}
+.business-process .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.business-process .item-name {
+    text-align: center;
+    margin: 10px;
+}
+.item-number {
+    z-index: 3;
+}
+.item-number-line {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+.cardbg:hover {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 24%, rgba(255, 255, 255, 1) 100%);
+}
+.item-number-line::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    /* top: 0; */
+    height: 0.6em;
+    background: #2f6db0;
+    z-index: 2;
+}
+.business-process .col {
+    padding: 0;
+}
+
+::selection {
+    background: #1c63b8;
+    color: #ffffff;
+}
+
+.about-max-three .about-max-three-media img {
+    max-width: 450px;
+}
+footer a {
+    color: #fff;
+}
+.footer-dark .footer-bottom .copyrights-text {
+    color: #fff;
+    font-size: 12px;
+}
+.footer-dark .footer-bottom .copyrights-text a:hover {
+    color: #1c63b8;
+}
+.footer-dark .widget_address li i {
+    transform: scale(1.3);
+}
+footer a > i:hover {
+    color: #fff !important;
+}
+.user-select-none {
+    user-select: none;
+}
+/* .phone-nav-logo {
+  margin-top: 10px;
+  height: 45px;
+} */
+@media only screen and (max-width: 991px) {
+    header.site-header {
+        height: 66px;
+    }
+}
+.border-c {
+    border: 1px solid #000;
+    border-style: dashed;
+    border-top: none;
+    border-bottom: none;
+}
+.service-box-content {
+    margin-bottom: 0;
+    border-bottom: none;
+    padding-bottom: 0;
+}
+.nav-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 991px) {
+    .wt-footer-bot-left,
+    .wt-footer-bot-right {
+        text-align: center;
+    }
+}
+
+/* fix slider height */
+.project-carousel .owl-stage {
+    display: flex;
+}
+.project-carousel .owl-item {
+    display: flex;
+    flex: 1 0 auto;
+}
+
+.footer-scroll-widget {
+    padding: 1em;
+    border: 1px solid white;
+    border-radius: 0.5em;
+}
+
+.sidebar-scroll-widget {
+    padding-top: 0.5em;
+}
+.sidebar-scroll-widget a {
+    padding: 0.5em;
+    padding-bottom: 0;
+    margin-bottom: 0.5em;
+}
+.sidebar-scroll-widget a:hover {
+    background: white;
+}
+.header-style-1 .main-bar {
+    border: none;
+}
+.header-info > ul li {
+    padding: 0;
+}
+.header-info > ul li .icon-md {
+    margin: 0;
+}
+.site-nav-logo {
+    margin-top: 11px;
+    height: 43px;
+}
+.phone-nav.bg-light {
+    background-color: #fff !important;
+}
+
+.phone-nav .navbar-toggler {
+    margin: 0;
+}
+.phone-nav li:nth-last-child(1) {
+    border-bottom: none;
+}
+.phone-nav li {
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0.5em;
+    border-bottom: 1px dotted black;
+}
+.phone-nav-logo {
+    height: 40px;
+}
+.main-bar {
+    background-color: white;
+}
+.phone-nav li.active a {
+    color: blue;
+}
+.product-image {
+    background: white;
+    height: 100%;
+}
+.product-image .about {
+    padding: 0.4em;
+}
+.product-image img {
+    width: 100%;
+    object-fit: cover;
+    height: 200px;
+}
+
+.product-grid {
+    margin-left: 15px;
+}
+.product-grid .col {
+    padding-left: 0;
+    padding-bottom: 15px;
+}
+.product-grid .col p {
+    margin: 0;
+}
+
+.cardstyle {
+    padding: 0.5em;
+}
+.cardstyle:hover {
+    background-color: #6c757d !important;
+    color: #0f1221;
+}
+
+.icon-card .icon-xl img {
+    object-fit: cover;
+}
+.tp-bullet {
+    background: #0f82c3;
+}
+.tp-bullet.selected,
+.tp-bullet:hover {
+    background: #293573;
+}
+.owl-carousel .owl-item img {
+    object-fit: contain;
+}
+
+.oem-btn-style {
+    width: 100%;
+    border: 4px solid #1c63b8;
+    border-radius: 30px;
+    color: #1c63b8;
+    font-weight: bolder;
+}
+
+.download-btn-style {
+    border: 1px solid #1c63b8;
+    border-radius: 30px;
+    color: white;
+    margin-left: 65px;
+}
+
+.oem-btn-style:hover {
+    background: #1c63b8;
+    border: 4px solid #1c63b8;
+}
+
+.download-btn-style:hover {
+    background: #1c63b8;
+    color: white;
+}
+
+.open-pdf-button {
+    background: #1c63b8;
+}
+
+.navi-btns {
+    background: linear-gradient(90deg, rgba(43, 50, 113, 1) 0%, rgba(11, 138, 203, 1) 100%) !important;
+}
+.main-breadcrumbs .wt-breadcrumb .b-links {
+    color: #80ddff !important;
+}
+
+.h-80 {
+    height: 80px;
+}
+
+.owl-carousel .owl-item img {
+    object-fit: contain;
+}
+
+.cust-img-width {
+    width: 90%;
+    margin: auto;
+}
+
+.s-title-one {
+    word-break: break-word;
+}
+.getinfo-btn.pdf.btn.btn-one.wow{
+color:white !important;
+}
+
+
